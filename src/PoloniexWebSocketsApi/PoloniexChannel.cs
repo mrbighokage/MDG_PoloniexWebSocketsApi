@@ -189,7 +189,7 @@ namespace PoloniexWebSocketsApi
 
         private void OnNewMessage(MemoryStream payloadData)
         {
-            object message = mSerializer.Deserialize(new JsonTextReader(new StreamReader(payloadData)) { CloseInput = false });
+            string message = new StreamReader(payloadData, Encoding.ASCII).ReadToEnd();
 
             if (Logger.IsDebugEnabled())
             {
@@ -214,9 +214,9 @@ namespace PoloniexWebSocketsApi
 
         public event Action<Exception> ConnectionError;
 
-        protected virtual void RaiseMessageArrived(object message)
+        protected virtual void RaiseMessageArrived(string message)
         {
-            MessageArrived?.Invoke(mSerializer, message);
+            MessageArrived?.Invoke(message);
         }
 
         protected virtual void RaiseConnectionClosed()

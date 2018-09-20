@@ -2,17 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>CodeSharp</Authors>
-    <Company>CodeSharp</Company>
-    <Product />
-    <Version>0.1.0</Version>
-    <PackageLicenseUrl>https://github.com/Code-Sharp/PoloniexWebSocketsApi/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/Code-Sharp/PoloniexWebSocketsApi/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/Code-Sharp/PoloniexWebSocketsApi.git</RepositoryUrl>
+    <Authors>CodeSharp, mrbighokage</Authors>
+    <Company>CodeSharp, InVeritaSoft</Company>
+    <Product>MDG.PoloniexWebSocketsApi</Product>
+    <Version>1.0.0</Version>
+    <PackageLicenseUrl>https://github.com/mrbighokage/MDG_PoloniexWebSocketsApi/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/mrbighokage/MDG_PoloniexWebSocketsApi</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mrbighokage/MDG_PoloniexWebSocketsApi.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>Poloniex</PackageTags>
+    <PackageTags>Poloniex, MDG</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>A .NET Standard 2.0 wrapper for the Poloniex WebSockets api</Description>
+    <Description>A .NET Standard 2.0 wrapper for the Poloniex WebSockets api adaptive for MDGb</Description>
+    <PackageId>MDG.PoloniexWebSocketsApi</PackageId>
+    <AssemblyName>MDG.PoloniexWebSocketsApi</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
