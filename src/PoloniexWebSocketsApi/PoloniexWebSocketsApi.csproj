@@ -5,16 +5,17 @@
     <Authors>CodeSharp, mrbighokage</Authors>
     <Company>CodeSharp, InVeritaSoft</Company>
     <Product>MDG.PoloniexWebSocketsApi</Product>
-    <Version>1.0.0</Version>
+    <Version>1.0.2</Version>
     <PackageLicenseUrl>https://github.com/mrbighokage/MDG_PoloniexWebSocketsApi/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/mrbighokage/MDG_PoloniexWebSocketsApi</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mrbighokage/MDG_PoloniexWebSocketsApi.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Poloniex, MDG</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>A .NET Standard 2.0 wrapper for the Poloniex WebSockets api adaptive for MDGb</Description>
+    <Description>A .NET Standard 2.0 wrapper for the Poloniex WebSockets api adaptive for MDG</Description>
     <PackageId>MDG.PoloniexWebSocketsApi</PackageId>
     <AssemblyName>MDG.PoloniexWebSocketsApi</AssemblyName>
+    <PackageIconUrl>https://camo.githubusercontent.com/f51f8913afb2bbf9273971d1784f7828a8b65b8a/68747470733a2f2f63727970746f626f74616e696b612e72752f77702d636f6e74656e742f75706c6f6164732f323031382f30342f756e6e616d65642e706e67</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
