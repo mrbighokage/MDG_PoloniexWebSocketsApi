@@ -31,3 +31,6 @@ private static void OnMessageArrived(JsonSerializer serializer, object message)
     Console.WriteLine(message);
 }
 ```
+
+## I had some problems with official implementation so I recommend using a pure socket client or using an asynchronous overlay ClientWebSocketWrapper
+[ClientWebSocketWrapper](https://github.com/mrbighokage/ClientWebSocketWrapper.DotNet)
